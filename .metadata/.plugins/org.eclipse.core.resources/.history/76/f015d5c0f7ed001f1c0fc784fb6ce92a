@@ -1,0 +1,5 @@
+package com.ak.main;
+
+public class DependencyInjectionTest {
+
+}
