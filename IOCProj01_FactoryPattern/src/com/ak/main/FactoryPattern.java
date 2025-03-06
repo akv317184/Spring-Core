@@ -1,0 +1,24 @@
+package com.ak.main;
+
+import com.ak.comps.Bike;
+import com.ak.factory.BikeFactory;
+
+public class FactoryPattern {
+
+	public static void main(String[] args) {
+		
+		Bike bike = BikeFactory.orderBike("standard");
+		bike.drive();
+		System.out.println("======================");
+		Bike bike1 = BikeFactory.orderBike("sports");
+		bike1.drive();
+		System.out.println("=======================");
+		Bike bike2 = BikeFactory.orderBike("electric");
+		bike2.drive();
+		System.out.println("=======================");
+		Bike bike3 = BikeFactory.orderBike("bullet");
+		bike3.drive();
+
+	}
+
+}
